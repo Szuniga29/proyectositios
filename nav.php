@@ -7,10 +7,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="acerca.php">Sobre Nosotros</a></li>
           <li><a class="nav-link scrollto" href="contacto.php">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Iniciar Sesión</a></li>
-          <li><button id="btnmodificado" href="#team">Registrarse</button></li>
+          <li><a class="nav-link scrollto" href="login.php">Iniciar Sesión</a></li>
+          <li><a class="nav-link scrollto" href="registro.php"><button class="btnmodificado">Registrarse</button></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
