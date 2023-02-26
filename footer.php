@@ -41,7 +41,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Date's Lab</h3>
             <p>
-            Desarrollado por <a href="https://cuc.ac.cr.com/">G3-TI-162</a>
+            Desarrollado por <a href="https://cuc.ac.cr.com/">TI-162 G3</a>
             </p>
           </div>
 

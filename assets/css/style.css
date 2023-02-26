@@ -8,6 +8,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.aper{
+  color: #ff7bac;
+  text-decoration: none;
+}
+
+.aper:hover {
+  color: #6390f8;
+  text-decoration: none;
+}
+
 .inputsM{
   border: 3px solid;
   border-color: #ff7bac;
@@ -1501,5 +1512,6 @@ border-radius: 20px;
     font-size: 28px;
   }
 }
+
 
 
