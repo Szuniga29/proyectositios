@@ -37,6 +37,7 @@
   <?php
     $_SESSION['nav'] = basename(__FILE__,".php");
     include_once('./nav.php');
+    require('modals.php');
   ?>
 
   <!------------------------------HERO-->
@@ -47,7 +48,7 @@
           <div data-aos="zoom-out">
             <h1><span>La mejor manera para encontrar a tu pareja</span></h1>
             <div class="text-center text-lg-start">
-              <a href="registro.php" class="btn-get-started scrollto">Registrarse</a>
+              <a data-bs-toggle="modal" data-bs-target="#registroNuevo" class="btn-get-started scrollto">Registrarse</a>
 
               <a href="#informacion" class="btn-get-started">¿Cómo funciona?</a>
             </div>
@@ -225,7 +226,7 @@
                   <div class="section-title" data-aos="fade-up">
                     <p>¿Cómo unirse a nuestra comunidad?</p>
                     <h5>Solo 3 sencillos pasos para encontrar a tu amor.</h5>
-                    <a href="registro.php">
+                    <a data-bs-toggle="modal" data-bs-target="#registroNuevo">
                       <button class="btnmodificadoRegistro">Registrarse Ahora</button>
                     </a>
                   </div>

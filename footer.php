@@ -16,7 +16,7 @@
                 Haz química con la persona que elijas.
               </h3>
               <br>
-              <a href="registro.php">
+              <a data-bs-toggle="modal" data-bs-target="#registroNuevo">
                 <button class="btnmodificadoRegistro">Registrarse</button>
               </a>
             </div>
@@ -54,7 +54,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="registro.php">Registrarse</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a data-bs-toggle="modal" data-bs-target="#registroNuevo">Registrarse</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="index.php#informacion">Información</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="index.php#testimonios">Testimonios</a></li>
             </ul>

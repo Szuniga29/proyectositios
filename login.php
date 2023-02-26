@@ -33,9 +33,11 @@
 </head>
 
 <body>
-
+    
     <?php
-    require('nav.php');
+    $_SESSION['nav'] = basename(__FILE__, ".php");
+    include_once('./nav.php');
+    require('modals.php');
     ?>
     <!------------------------------HERO-->
     <section id="hero">
@@ -98,8 +100,8 @@
                                 <hr>
 
                                 <div class="d-flex justify-content-between">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#olvidocontra" style="text-align:left"> Olvidó su contraseña?</a>
-                                <a href="registro.php" class="aper">Registrese Aquí</a>
+                                <a data-bs-toggle="modal" class="aper2" data-bs-target="#recuperaContra" style="text-align:left"> Olvidó su contraseña?</a>
+                                <a data-bs-toggle="modal" data-bs-target="#registroNuevo" class="aper">Registrese Aquí</a>
 
                                 </div>
           
@@ -143,7 +145,7 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Nuestros Servicios</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="registro.php">Registrarse</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a data-bs-toggle="modal" data-bs-target="#registroNuevo">Registrarse</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="index.php#informacion">Información</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="index.php#testimonios">Testimonios</a></li>
                         </ul>

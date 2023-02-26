@@ -37,6 +37,7 @@
     <?php
         $_SESSION['nav'] = basename(__FILE__, ".php");
         include_once('./nav.php');
+        require('modals.php');
     ?>
     
     <!------------------------------HERO-->

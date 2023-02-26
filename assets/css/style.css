@@ -19,6 +19,15 @@
   text-decoration: none;
 }
 
+.aper2{
+  color: #6390f8;
+  text-decoration: none;
+}
+
+.aper2:hover {
+  color: #ff7bac;
+  text-decoration: none;
+}
 .inputsM{
   border: 3px solid;
   border-color: #ff7bac;
@@ -144,7 +153,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #78A0FF;
-  border-top-color: #d2f9eb;
+  border-top-color: #f5f5ff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
