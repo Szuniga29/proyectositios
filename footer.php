@@ -1,38 +1,34 @@
-  
-    <!------------------------------UNETE HOY-->
-    <section>
-        <div class="container mt-3">
-            <div class="card" id="cartapasos">
-                <div class="card-body">
+  <!------------------------------UNETE HOY-->
+  <section>
+    <div class="container mt-3">
+      <div class="card" id="cartapasos">
+        <div class="card-body">
 
-                    <div class="row content justify-content-center">
-                        <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-                            <img src="assets/img/LogoFooter.svg" class="img-fluid" alt="">
-                        </div>
-
-
-                        <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up" style="margin-top: 55px;">
-                            <h1>Comience con Date's Lab hoy</h1>
-                            <h3 id="titulosopen">
-                                Haz química con la persona que elijas.
-                            </h3>
-                            <br>
-                            <a href="registro.php">
-                                <button class="btnmodificadoRegistro">Registrarse</button>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </div>
+          <div class="row content justify-content-center">
+            <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/LogoFooter.svg" class="img-fluid" alt="">
             </div>
+
+
+            <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up" style="margin-top: 55px;">
+              <h1>Comience con Date's Lab hoy</h1>
+              <h3 id="titulosopen">
+                Haz química con la persona que elijas.
+              </h3>
+              <br>
+              <a href="registro.php">
+                <button class="btnmodificadoRegistro">Registrarse</button>
+              </a>
+            </div>
+
+          </div>
+
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
   <!------------------------------FIN UNETE HOY-->
-  
-  
-  
-  
+
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -41,7 +37,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Date's Lab</h3>
             <p>
-            Desarrollado por <a href="https://cuc.ac.cr.com/">G3-TI-162</a>
+              Desarrollado por <a href="https://cuc.ac.cr.com/">G3-TI-162</a>
             </p>
           </div>
 

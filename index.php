@@ -35,7 +35,8 @@
 <body>
 
   <?php
-  require('nav.php')
+    $_SESSION['nav'] = basename(__FILE__,".php");
+    include_once('./nav.php');
   ?>
 
   <!------------------------------HERO-->
@@ -254,7 +255,7 @@
           <div class="col-md-10 col-xl-8 text-center">
             <h1 style="color: white;">Testimonios</h1>
             <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-               A la gente le encanta lo que hacemos y queremos hacértelo saber.
+              A la gente le encanta lo que hacemos y queremos hacértelo saber.
             </p>
           </div>
         </div>
@@ -270,19 +271,19 @@
                 <h6 class="font-weight-bold my-3">Usuario</h6>
                 <ul class="list-unstyled d-flex justify-content-center">
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-regular fa-star-half-stroke" style="color: #ff7bac;"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #ff7bac;"></i>
                   </li>
                 </ul>
                 <p class="mb-2">
@@ -301,19 +302,19 @@
                 <h6 class="font-weight-bold my-3">Usuario</h6>
                 <ul class="list-unstyled d-flex justify-content-center">
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                 </ul>
                 <p class="mb-2">
@@ -332,19 +333,19 @@
                 <h6 class="font-weight-bold my-3">Usuario</h6>
                 <ul class="list-unstyled d-flex justify-content-center">
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff7bac;"></i>
                   </li>
                   <li>
-                  <i class="fa-regular fa-star" style="color: #ff7bac;"></i>
+                    <i class="fa-regular fa-star" style="color: #ff7bac;"></i>
                   </li>
                 </ul>
                 <p class="mb-2">

@@ -35,7 +35,8 @@
 <body>
 
     <?php
-    require('nav.php');
+        $_SESSION['nav'] = basename(__FILE__, ".php");
+        include_once('./nav.php');
     ?>
     <!------------------------------HERO-->
     <section id="hero">
@@ -112,8 +113,8 @@
 
 
     <?php
-    require('footer.php')  
-  ?> 
+    require('footer.php')
+    ?>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>

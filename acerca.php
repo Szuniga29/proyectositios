@@ -35,8 +35,10 @@
 <body>
 
     <?php
-    require('nav.php');
+        $_SESSION['nav'] = basename(__FILE__, ".php");
+        include_once('./nav.php');
     ?>
+    
     <!------------------------------HERO-->
     <section id="hero">
 
