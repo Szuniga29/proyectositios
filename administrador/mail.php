@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home - Administrador</title>
+    <title>Correos - Administrador</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,11 +16,10 @@
 </head>
 
 <body>
-    <?php $_SESSION['contenido'] = 'Home'; ?>
+    <?php $_SESSION['contenido'] = 'Mail'; ?>
     <?php include_once('./nav.php'); ?>
     <?php include_once('./sidemenu.php'); ?>
 
-    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

@@ -3,8 +3,8 @@
 </header>
 
 <div class="row g-0">
-    <div class="col-lg-6 col-xl-7 col-xxl-8 mb-3 pe-lg-2 mb-3">
-        <div class="card h-lg-100">
+    <div class="col-lg-6 col-xl-7 col-xxl-8 mb-3 pe-lg-2">
+        <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-calendar-day"></i> Resumen del día</h3><br>
 
@@ -53,7 +53,7 @@
     </div>
 
     <div class="col-lg-6 col-xl-5 col-xxl-4 mb-3 ps-lg-2">
-        <div class="card h-lg-100">
+        <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-signal-stream"></i> Ancho de banda</h3><br>
                 <div class="row">
@@ -68,8 +68,8 @@
 </div>
 
 <div class="row g-0">
-    <div class="col-lg-6 col-xl-7 col-xxl-8 mb-3 pe-lg-2 mb-3">
-        <div class="card h-lg-100">
+    <div class="col-lg-6 col-xl-7 col-xxl-8 mb-3 pe-lg-2">
+        <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-chart-pie"></i> Reportes</h3><br>
                 <div class="row">
@@ -89,7 +89,7 @@
     </div>
 
     <div class="col-lg-6 col-xl-5 col-xxl-4 mb-3 ps-lg-2">
-        <div class="card h-lg-100">
+        <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-earth-americas"></i> Visitantes</h3><br>
 
@@ -109,5 +109,4 @@
 
         </div>
     </div>
-</div>
 </div>

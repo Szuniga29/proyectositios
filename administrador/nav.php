@@ -16,9 +16,17 @@
 
         <div class="d-flex flex-row-reverse bd-highlight">
             <div class="p-2 bd-highlight">
-                <button class="btn btn-dark" type="button"><i class="fa-regular fa-pencil"></i></button>
-                <button class="btn btn-dark" type="button"><i class="fa-solid fa-bell"></i></button>
-                <button class="btn btn-dark" type="button"><i class="fa-solid fa-user"></i></button>
+                <div class="dropdown">
+                    <button class="btn btn-dark" type="button"><i class="fa-regular fa-pencil"></i></button>
+                    <button class="btn btn-dark" type="button"><i class="fa-solid fa-bell"></i></button>
+                    <button class="btn btn-dark" type="button" id="drop" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drop">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Salir</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

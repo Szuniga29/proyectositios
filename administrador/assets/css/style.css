@@ -1,0 +1,26 @@
+body{
+    background: #C6D0F3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btncss {
+    border: 3px solid;
+    border-color: #ff7bac;
+    letter-spacing: 1px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #000;
+    background: #fff;
+}
+
+.btncss:hover {
+    background: #ff7bac;
+    color: #fff;
+}
+
+.card{
+    background: #F5F5FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
