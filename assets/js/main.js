@@ -182,23 +182,7 @@
     selector: '.gallery-lightbox'
   });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  
 
   /**
    * Animation on scroll
@@ -210,6 +194,39 @@
       once: true,
       mirror: false
     })
+  });
+
+  /**
+   * Send Email
+   */
+  $('#btnEnviaCorreo').on('click', function (e) {
+    e.preventDefault();
+    var nombreC = $("#nombreC").val();
+    var correoC = $("#correoC").val();
+    var mensajeC = $("#mensajeC").val();
+    var accion = "enviaSugerencia";
+
+    if (mensajeC != "" && correoC != "") {
+      $.ajax({
+        url: "general.php",
+        type: "POST",
+        data: {
+          nombreC: nombreC,
+          correoC: correoC,
+          mensajeC: mensajeC,
+          accion: accion
+        },
+        success: function () {
+
+          $('#formInfo').find('textarea').val('');
+          $('#formInfo').find('input:text').val('');
+
+          Swal.fire("Exito!", "Nos contactaremos lo más pronto posible al correo electrónico brindado anteriormente.", "success");
+        }
+      });
+    } else {
+      Swal.fire("Error!", "El formulario esta vacío, por favor complételo.", "error");
+    }
   });
 
   /**

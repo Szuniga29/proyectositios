@@ -4,40 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Date's Lab-Inicio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" />
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
+  <?php
+      require('assets/custom/links.php');
+  ?>
 </head>
 
 <body>
 
   <?php
     $_SESSION['nav'] = basename(__FILE__,".php");
-    include_once('./nav.php');
-    require('modals.php');
+    include_once('./assets/custom/nav.php');
+    require('assets/custom/modals.php');
   ?>
 
   <!------------------------------HERO-->
@@ -86,7 +64,6 @@
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> -->
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
@@ -117,6 +94,7 @@
       </div>
     </section>
 
+    <!------------------------------INFORMACIÓN EMPRESA CONTADORES-->
     <section id="counts" class="counts">
       <div class="container">
         <div class="row" data-aos="fade-up">
@@ -157,6 +135,7 @@
       </div>
     </section>
 
+    <!------------------------------INFORMACIÓN EMPRESA DETALLES-->
     <section id="details" class="details">
       <div class="container">
 
@@ -215,7 +194,7 @@
       </div>
     </section>
 
-
+    <!------------------------------INFORMACIÓN EMPRESA PASOS-->
     <section class="section-bg">
       <div class="container mt-3">
         <div class="row">
@@ -250,6 +229,7 @@
     </section>
 
 
+    <!------------------------------INFORMACIÓN EMPRESA TESTIMONIOS-->
     <section id="testimonios" class="testimonials">
       <div class="container">
         <div class="row d-flex justify-content-center">
@@ -364,22 +344,15 @@
   <!------------------------------FIN INFORMACIÓN EMPRESA-->
 
   <?php
-  require('footer.php')
+    require('assets/custom/footer.php')
   ?>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php
+    require('assets/custom/js.php')
+  ?>
 
 </body>
 
