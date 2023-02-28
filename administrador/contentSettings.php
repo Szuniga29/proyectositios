@@ -1,5 +1,5 @@
 <div class="row g-0">
-    <div class="col-lg-6 col-xl-7 col-xxl-4 mb-3 pe-lg-3">
+<div class="col-lg-6 col-md-7 col-sm-4 mb-3 pe-lg-3">
         <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-user-pen"></i> Ajustes de Usuario</h3>
@@ -67,8 +67,8 @@
 
                 <div class="row">
                     <div>
-                        <button type="submit" class="btncss" style="width: 45%;">Guardar</button>
-                        <button type="submit" class="btncss" style="width: 45%;">Cancelar</button>
+                        <button type="submit" class="btnmodificadoRegistro">Guardar</button>
+                        <button type="submit" class="btnmodificadoRegistro">Cancelar</button>
                     </div>
                 </div>
                 <hr>
@@ -76,14 +76,14 @@
                 <h5 class="mt-3">Zona de peligro</h5>
                 <div class="row">
                     <div class="mt-3">
-                        <button type="submit" class="btncss" style="width: 50%;">Eliminar Cuenta</button>
+                        <button type="submit" class="btnmodificadoRegistro">Eliminar Cuenta</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="col-lg-6 col-xl-7 col-xxl-4 mb-3 pe-lg-3">
+    <div class="col-lg-6 col-md-7 col-sm-4 mb-3 pe-lg-3">
         <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-server"></i> Ajustes del Servidor</h3>
@@ -188,8 +188,9 @@
             </div>
         </div>
     </div>
-
-    <div class="col-lg-6 col-xl-7 col-xxl-4 mb-3 pe-lg-3">
+</div>
+<div class="row g-0">
+<div class="col-lg-6 col-md-7 col-sm-4 mb-3 pe-lg-3">
         <div class="card border-dark h-lg-100">
             <div class="card-body position-relative">
                 <h3><i class="fa-regular fa-users-gear"></i> Cuentas Administradoras</h3>
@@ -238,7 +239,7 @@
 
                     <div class="text-center">
                         <hr>
-                        <button type="submit" class="btncss" style="width: 50%;">Crear</button>
+                        <button type="submit" class="btnmodificadoRegistro">Crear Usuario</button>
                     </div>
                 </form>
             </div>

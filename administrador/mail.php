@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body style="background-color: #c6d0f3;">
     <?php $_SESSION['contenido'] = 'Mail'; ?>
     <?php include_once('./nav.php'); ?>
     <?php include_once('./sidemenu.php'); ?>

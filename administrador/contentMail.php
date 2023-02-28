@@ -43,7 +43,7 @@
 
                     <div class="text-center">
                         <hr>
-                        <button type="submit" class="btncss">Guardar</button>
+                        <button type="submit" class="btnmodificadoRegistro">Guardar</button>
                     </div>
                 </form>
             </div>
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="text-end">
-                    <button type="submit" class="btncss">Guardar</button>
+                    <button type="submit" class="btnmodificadoRegistro">Guardar</button>
                     <hr>
                 </div>
 
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="text-end">
-                    <button type="submit" class="btncss">Guardar</button>
+                    <button type="submit" class="btnmodificadoRegistro">Guardar</button>
                     <hr>
                 </div>
 
@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="text-end">
-                    <button type="submit" class="btncss">Guardar</button>
+                    <button type="submit" class="btnmodificadoRegistro">Guardar</button>
                 </div>
             </div>
         </div>

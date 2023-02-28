@@ -11,36 +11,85 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="container mt-3">
-        <div class="row">
-            <div class="col-sm-4"></div>
 
-            <div class="col-sm-4">
-                <h2 class="text-center">Iniciar Sesión</h2>
 
-                <form id="loginAdmin">
-                    <div class="mb-3 mt-3">
-                        <label for="usuario">Usuario:</label>
-                        <input type="text" class="form-control" id="usuario" placeholder="Usuario" name="usuario">
+
+    <section id="hero">
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="30" y="3" fill="rgba(255,255,255, .1)">
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="30" y="0" fill="rgba(255,255,255, .2)">
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="30" y="9" fill="#fff">
+            </g>
+        </svg>
+
+    </section>
+    <!------------------------------FIN HERO-->
+
+
+    <main id="main">
+        <section>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <div class="card" id="cartapasos">
+                            <div class="card-body">
+                                <h2 class="text-center">Date's Administración</h2>
+                                <hr>
+                                <form id="loginAdmin">
+                                    <div class="mb-3 mt-3">
+                                        <p>
+                                            <label for="usuario">Usuario:</label>
+                                        </p>
+                                        <input type="text" class="form-control inputsM" id="usuario" placeholder="Ingrese su Usuario*" name="usuario">
+                                    </div>
+
+                                    <div class="mb-3">
+                                    <p>
+                                        <label for="pass">Contraseña:</label>
+                                    </p>
+                                        <input type="password" class="form-control inputsM" id="pass" placeholder="Ingrese su Contraseña*" name="pass">
+                                    </div>
+                                    <hr>
+                                    <a href="./home.php">
+                                        <center>
+                                            <button type="button" class="btnmodificadoRegistro">Iniciar Sesión</button>
+                                        </center>
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+
                     </div>
-
-                    <div class="mb-3">
-                        <label for="pass">Contraseña:</label>
-                        <input type="password" class="form-control" id="pass" placeholder="Contraseña" name="pass">
-                    </div>
-                    <a href="./home.php">
-                        <button type="button" class="btn w3-panel w3-border w3-round-xxlarge" style="background: #FF7BAC; width:100%;">Iniciar Sesión</button>
-                    </a>
-                </form>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
             </div>
 
-            <div class="col-sm-4"></div>
+            </div>
+        </section>
+    </main><!-- End #main -->
+
+    <footer id="footer">
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Date's Lab</span></strong>. Todos los derechos reservados
+            </div>
+
         </div>
-    </div>
+    </footer>
 
 </body>
 

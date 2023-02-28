@@ -237,7 +237,7 @@
           },
         });
       } else {
-        Swal.fire("Advertencia!","Ingrese una dirección de electrónico @ válida.","warning");
+        Swal.fire("Advertencia!","Ingrese una dirección de correo electrónico @ válida.","warning");
       }
     } else {
       Swal.fire("Error!","El formulario esta vacío, por favor complételo.","error");
